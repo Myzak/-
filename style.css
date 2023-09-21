@@ -6,8 +6,21 @@
 
 #projects {
   background-color: #e2edff;
+
 }
 
 section {
-    padding-top: 17rem;
+  padding-top: 17rem;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row >* {
+  padding: 0;
+}
+
+#gallery {
+  margin-top: -0rem;
 }

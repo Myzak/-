@@ -3,9 +3,16 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio | Muzakki</title>
+    <!-- My CSS -->
+
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- aos -->
+
     <!-- Bootstrap CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -13,6 +20,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!-- Bootstrap CSS -->
   </head>
   <body id="home">
     <!-- Navbar -->
@@ -79,13 +87,23 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-up-right"
+            data-aos-offset="340"
+            data-aos-duration="1000"
+          >
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Optio eligendi totam ab
               explicabo doloremque quos ea quasi provident obcaecati repudiandae?
             </p>
           </div>
-          <div class="col-md-4">
+          <div
+            class="col-md-4"
+            data-aos="fade-up-left"
+            data-aos-offset="340"
+            data-aos-duration="1500"
+          >
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem modi quasi nesciunt
             provident maiores rerum. Modi rem temporibus a perspiciatis recusandae! Facilis
             voluptatem corporis vero!
@@ -112,7 +130,13 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-4">
-            <div class="card">
+            <div
+              class="card"
+              data-aos="flip-left"
+              data-aos-offset="400"
+              data-aos-duration="1000"
+              data-aos-delay="50"
+            >
               <img src="img/projects/floating island.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">
@@ -123,7 +147,13 @@
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card">
+            <div
+              class="card"
+              data-aos="flip-down"
+              data-aos-offset="400"
+              data-aos-duration="1000"
+              data-aos-delay="500"
+            >
               <img src="img/projects/Billie Eililsh vexel art.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">
@@ -134,7 +164,47 @@
             </div>
           </div>
           <div class="col-md-4 mb-4">
-            <div class="card">
+            <div
+              class="card"
+              data-aos="flip-down"
+              data-aos-offset="400"
+              data-aos-duration="1000"
+              data-aos-delay="1000"
+            >
+              <img src="img/projects/rusa jpg 2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div
+              class="card"
+              data-aos="flip-down"
+              data-aos-offset="0"
+              data-aos-duration="1000"
+              data-aos-delay="1300"
+            >
+              <img src="img/projects/konsep chomper 31.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the
+                  card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div
+              class="card"
+              data-aos="flip-right"
+              data-aos-offset="0"
+              data-aos-duration="1000"
+              data-aos-delay="1800"
+            >
               <img src="img/projects/2d landscup tugas ig.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">
@@ -157,15 +227,105 @@
 
     <!-- Projects -->
 
+    <!-- Gallery -->
+    <section id="gallery">
+      <div class="container">
+        <div class="row text-center">
+          <h2>Gallery</h2>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/Gallery/andrew-charney-e3iwXJhT3Zk-unsplash.jpg"
+                alt="gmbr1"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/Gallery/collins-lesulie-Q7QM2WSOTs4-unsplash.jpg"
+                alt="gmbr1"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/Gallery/david-clode-eOSqRq2Qm1c-unsplash.jpg"
+                alt="gmbr1"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/Gallery/gambar.jpg" alt="gmbr1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/Gallery/hallowen woo3.jpg" alt="gmbr1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/Gallery/mercusuar save as.jpg"
+                alt="gmbr1"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img src="img/Gallery/mercusuar.jpg" alt="gmbr1" class="img-fluid gallery-img" />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/Gallery/nenad-spasojevic-wrX4YhYBPWk-unsplash.jpg"
+                alt="gmbr1"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/Gallery/niilo-isotalo--BZc9Ee1qo0-unsplash.jpg"
+                alt="gmbr1"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+          <div class="col-md-3">
+            <a href="#">
+              <img
+                src="img/Gallery/the-new-york-public-library-yEauzeZU6xo-unsplash.jpg"
+                alt="gmbr1"
+                class="img-fluid gallery-img"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery -->
+
     <!-- Contact -->
     <section id="contact">
       <div class="container">
-        <div class="row text-center">
+        <div class="row text-center mb-3">
           <div class="col">
             <h2>Contact Me</h2>
           </div>
         </div>
-        <div class="row justify-content-center mb-3">
+        <div class="row justify-content-center">
           <div class="col-md-8">
             <div
               class="alert alert-success alert-dismissible fade show d-none my-alert"
@@ -251,6 +411,47 @@
       crossorigin="anonymous"
     ></script>
 
+    <!-- script aos -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- Gallery -->
+    <script>
+      const galleryImage = document.querySelectorAll(".gallery-img");
+
+      galleryImage.forEach((img, i) => {
+        img.dataset.aos = "fade-down";
+        img.dataset.aosDelay = i * 150;
+        img.dataset.aosDuration = 1000;
+      });
+      // Gallery
+
+      AOS.init({
+        once: true,
+      });
+    </script>
+    <!-- Script AOS -->
+
+    <!-- Script GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script>
+      gsap.from(".jumbotron img", {
+        duration: 3,
+        rotaY: 360,
+        y: -100,
+        opacity: 0,
+        ease: "elastic.out(1, 0.2)",
+      });
+      gsap.from(".navbar", { duration: 1.5, delay: 1, y: "-100%", opacity: 0, ease: "bounce" });
+      gsap.from(".display-4", {
+        duration: 1.2,
+        delay: 2,
+        dsg: "-100%",
+        opacity: 0,
+        ease: "sine.out",
+      });
+    </script>
+    <!-- Script GSAP -->
+
+    <!-- Script  APK Contact Form -->
     <script>
       const scriptURL =
         "https://script.google.com/macros/s/AKfycbyJapqjJU4sQX1g-nd8HAnjYumqeCNFDOhv-nO3Vd9_HxsntiMpeiAphqohk4GbR82s/exec";
@@ -279,6 +480,7 @@
           .catch((error) => console.error("Error!", error.message));
       });
     </script>
+    <!-- Script  APK Contact Form -->
   </body>
 </html>
 <!-- footer -->
