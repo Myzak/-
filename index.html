@@ -64,14 +64,21 @@
     <!-- Jumbotron -->
     <section class="jumbotron text-center">
       <img
-        src="img/107020842_940382896423432_6679445953505708202_n.jpg"
+        src="img/miauwW.jpg"
         alt="white-T"
         width="200"
         class="rounded-circle img-fluid img-thumbnail"
       />
       <h1 class="display-4">Abdullah Muzakki</h1>
       <p class="lead"></p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="100%"
+        height="100%"
+        class="wave"
+        viewBox="0 -5 1000 320"
+      >
+        <rect height="100%" />
         <path
           fill="#ffffff"
           fill-opacity="1"
@@ -79,6 +86,7 @@
         ></path>
       </svg>
     </section>
+
     <!-- Jumbotron -->
 
     <!-- About -->
@@ -113,14 +121,14 @@
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#e2edff"
-          fill-opacity="1"
-          d="M0,64L48,80C96,96,192,128,288,117.3C384,107,480,53,576,42.7C672,32,768,64,864,96C960,128,1056,160,1152,165.3C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-        ></path>
-      </svg>
     </section>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path
+        fill="#e2edff"
+        fill-opacity="1"
+        d="M0,64L48,80C96,96,192,128,288,117.3C384,107,480,53,576,42.7C672,32,768,64,864,96C960,128,1056,160,1152,165.3C1248,171,1344,149,1392,138.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+      ></path>
+    </svg>
     <!-- About -->
 
     <!-- Projects -->
@@ -157,7 +165,7 @@
               data-aos-duration="1000"
               data-aos-delay="500"
             >
-              <img src="img/projects/Billie Eililsh vexel art.png" class="card-img-top" alt="..." />
+              <img src="img/projects/Billie Eililsh vexel art1.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">
                   Some quick example text to build on the card title and make up the bulk of the
@@ -208,7 +216,7 @@
               data-aos-duration="1000"
               data-aos-delay="1800"
             >
-              <img src="img/projects/2d landscup tugas ig.jpg" class="card-img-top" alt="..." />
+              <img src="img/projects/2d landscup tugas.jpg" class="card-img-top" alt="..." />
               <div class="card-body">
                 <p class="card-text">
                   Some quick example text to build on the card title and make up the bulk of the
@@ -233,7 +241,7 @@
     <!-- Gallery -->
     <section id="gallery">
       <div class="container">
-        <div class="row text-center">
+        <div class="row text-center mb-3">
           <h2>Gallery</h2>
         </div>
         <div class="row justify-content-center">
@@ -444,7 +452,14 @@
         delay: 2.5,
         text: "Graphic Design | Video Editor | Web Design",
       });
-      
+
+      gsap.from(".wave", {
+        duration: 3.0,
+        delay: 2.5,
+        opacity: 1,
+        y: "+100%",
+      });
+
       gsap.from(".jumbotron img", {
         duration: 3,
         rotaY: 360,
