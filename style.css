@@ -22,4 +22,13 @@ section {
   padding: 0;
 }
 
+#about {
+  overflow: hidden;
+}
+
+
+.navbar-brand {
+
+  font-weight: 500;
+}
 
